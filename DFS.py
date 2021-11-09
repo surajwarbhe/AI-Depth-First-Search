@@ -21,7 +21,8 @@ def DFS(Graph, node, visited):
 
 
 start = input("Enter starting vertex : ")
-print("The Depth-First Search of the following Graph: ") visited = DFS(Graph, start, [])
+print("The Depth-First Search of the following Graph: ") 
 
+visited = DFS(Graph, start, [])
 for i in visited:
     print(i, end=' ')
